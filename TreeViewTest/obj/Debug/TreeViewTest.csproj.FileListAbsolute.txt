@@ -1,0 +1,14 @@
+E:\Hobbies\Programming\DotNET\Projects\solTreeViewTest\TreeViewTest\bin\Debug\TreeViewTest.exe.config
+E:\Hobbies\Programming\DotNET\Projects\solTreeViewTest\TreeViewTest\bin\Debug\TreeViewTest.exe
+E:\Hobbies\Programming\DotNET\Projects\solTreeViewTest\TreeViewTest\bin\Debug\TreeViewTest.pdb
+E:\Hobbies\Programming\DotNET\Projects\solTreeViewTest\TreeViewTest\obj\Debug\MainWindow.g.cs
+E:\Hobbies\Programming\DotNET\Projects\solTreeViewTest\TreeViewTest\obj\Debug\App.g.cs
+E:\Hobbies\Programming\DotNET\Projects\solTreeViewTest\TreeViewTest\obj\Debug\TreeViewTest_MarkupCompile.cache
+E:\Hobbies\Programming\DotNET\Projects\solTreeViewTest\TreeViewTest\obj\Debug\TreeViewTest_MarkupCompile.lref
+E:\Hobbies\Programming\DotNET\Projects\solTreeViewTest\TreeViewTest\obj\Debug\MainWindow.baml
+E:\Hobbies\Programming\DotNET\Projects\solTreeViewTest\TreeViewTest\obj\Debug\TreeViewTest.g.resources
+E:\Hobbies\Programming\DotNET\Projects\solTreeViewTest\TreeViewTest\obj\Debug\TreeViewTest.Properties.Resources.resources
+E:\Hobbies\Programming\DotNET\Projects\solTreeViewTest\TreeViewTest\obj\Debug\TreeViewTest.csproj.GenerateResource.Cache
+E:\Hobbies\Programming\DotNET\Projects\solTreeViewTest\TreeViewTest\obj\Debug\TreeViewTest.exe
+E:\Hobbies\Programming\DotNET\Projects\solTreeViewTest\TreeViewTest\obj\Debug\TreeViewTest.pdb
+E:\Hobbies\Programming\DotNET\Projects\solTreeViewTest\TreeViewTest\obj\Debug\TreeViewTest.csprojResolveAssemblyReference.cache
