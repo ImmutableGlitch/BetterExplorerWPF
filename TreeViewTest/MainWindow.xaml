@@ -5,31 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TreeViewTest"
         mc:Ignorable="d"
-        Loaded="Window_Loaded"
         Title="" Height="492" Width="779" WindowStyle="ToolWindow">
     <Window.Background>
         <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ScrollBarColorKey}}"/>
     </Window.Background>
+
     <Grid>
-        <TreeView x:Name="folderView" Margin="0,0,501,0">
-            <TreeView.Resources>
+        <TreeView x:Name="folderView" ItemsSource="{Binding Items}" Margin="0,0,501,0">
+            
+            <TreeView.ItemContainerStyle>
                 <Style TargetType="{x:Type TreeViewItem}">
-                    <Setter Property="HeaderTemplate">
-                        <Setter.Value>
-                            <DataTemplate>
-                                <StackPanel Orientation="Horizontal">
-                                    <Image Width="20" Margin="3"
-                                           Source="{Binding 
-                                                RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type TreeViewItem}},
-                                        Path=Tag,
-                                        Converter={x:Static local:HeaderToImageConverter.Instance}}" />
-                                    <TextBlock VerticalAlignment="Center" Text="{Binding}" />
-                                </StackPanel>
-                            </DataTemplate>
-                        </Setter.Value>
-                    </Setter>
+                    <Setter Property="IsExpanded" Value="{Binding IsExpanded, Mode=TwoWay}" />
                 </Style>
-            </TreeView.Resources>
+            </TreeView.ItemContainerStyle>
+
+            <!-- Tree view contains items. These items contain an icon and label-->
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate ItemsSource="{Binding Children}">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Width="20" Margin="3" Source=
+                               "{Binding Type, Converter=
+                            {x:Static local:HeaderToImageConverter.Instance}}"/>
+                        <TextBlock VerticalAlignment="Center" Text="{Binding Name}"/>
+                    </StackPanel>
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
         </TreeView>
     </Grid>
+    
 </Window>
