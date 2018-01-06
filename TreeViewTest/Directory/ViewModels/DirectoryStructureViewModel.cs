@@ -12,7 +12,7 @@ namespace TreeViewTest
         /// <summary>
         /// A list of all the system directories
         /// </summary>
-        public ObservableCollection<DirectoryItemViewModel> Items { get; set; }
+        public ObservableCollection<DirectoryItemViewModel> Drives { get; set; }
 
         public DirectoryStructureViewModel()
         {
@@ -20,7 +20,7 @@ namespace TreeViewTest
             var children = DirectoryStructure.GetLogicalDrives();
 
             // Create view models
-            Items = new ObservableCollection<DirectoryItemViewModel>
+            Drives = new ObservableCollection<DirectoryItemViewModel>
                 (children.Select(drive => new DirectoryItemViewModel(drive.FullPath,DirectoryItemType.Drive)));
         }
     }

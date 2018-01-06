@@ -12,3 +12,4 @@ E:\Hobbies\Programming\DotNET\Projects\solTreeViewTest\TreeViewTest\obj\Debug\Tr
 E:\Hobbies\Programming\DotNET\Projects\solTreeViewTest\TreeViewTest\obj\Debug\TreeViewTest.exe
 E:\Hobbies\Programming\DotNET\Projects\solTreeViewTest\TreeViewTest\obj\Debug\TreeViewTest.pdb
 E:\Hobbies\Programming\DotNET\Projects\solTreeViewTest\TreeViewTest\obj\Debug\TreeViewTest.csprojResolveAssemblyReference.cache
+E:\Hobbies\Programming\DotNET\Projects\solTreeViewTest\TreeViewTest\obj\Debug\TreeViewTest.csproj.CoreCompileInputs.cache

@@ -46,6 +46,11 @@ namespace TreeViewTest
 
             return items;
         }
+        /// <summary>
+        /// Returns only the file or folder name without slashes
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
         public static string GetFileFolderName(string path)
         {
             if (string.IsNullOrEmpty(path))
